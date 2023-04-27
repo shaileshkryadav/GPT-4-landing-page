@@ -6,7 +6,7 @@ import {
   Footer,
   Header,
   Posibility,
-  Feature,
+  Features,
 } from "./containers";
 import { CTA, Navbar, Brand } from "./components/index";
 import "./index.css";
@@ -21,7 +21,7 @@ function App() {
       </div>
       <Brand />
       <WhatGPT4 />
-      <Feature />
+      <Features />
       <Posibility />
       <CTA />
       <Blog />
