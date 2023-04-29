@@ -112,6 +112,7 @@
 @media screen and (max-width:1050px) {
     .gpt4__header{
         flex-direction: column;
+        margin-left:2rem ;
     }
     .gpt4__header-content{
         margin: 0 0 3rem;
@@ -120,6 +121,9 @@
 
 
 @media screen and (max-width:650px) {
+    .gpt4__header{
+        margin-left:2rem;
+    }
     .gpt4__header h1{
         font-size: 48px;
         line-height: 60px;
